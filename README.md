@@ -13,3 +13,4 @@ This project is containerized using Docker to ensure consistent development and 
 3. Run the Docker container:
 4. Access the application at `http://localhost:3000` in your web browser.
 # news-app
+# news-app
