@@ -1,0 +1,6 @@
+.article-search-conatiner {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  gap: 20px;
+  margin-top: 32px;
+}

@@ -1,0 +1,38 @@
+.custom-skeleton {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 2fr 1fr;
+  animation: pulse 1.5s infinite ease-in-out;
+}
+
+.custom-skeleton .skeleton {
+  background: #e0e0e0;
+  border-radius: 4px;
+  margin: 10px 0;
+  height: 20px;
+}
+
+.custom-skeleton .skeleton.medium {
+  height: 60px;
+}
+
+.custom-skeleton .skeleton.large {
+  height: 90px;
+}
+
+@keyframes pulse {
+  0% {
+    background-color: #e0e0e0;
+  }
+  50% {
+    background-color: #f0f0f0;
+  }
+  100% {
+    background-color: #e0e0e0;
+  }
+}
